@@ -15,7 +15,7 @@ RUN : '==== create a user (and also hide the random hostname in the prompt)' \
  && apt-get update --fix-missing \
  && apt-get install -y curl unzip bzip2 locales \
                        libopenmpi1.10 libgomp1 libunwind8 \
-                       libtiff5 libpng12-0 libjasper1 \
+                       libtiff5 libpng16-16 \
  && locale-gen en_US.UTF-8 \
  && apt-get clean && rm -rf /var/lib/apt/lists/*
 

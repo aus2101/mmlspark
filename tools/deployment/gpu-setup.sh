@@ -73,7 +73,7 @@ add_new_line() { # file, line...
 }
 
 echo "## Installing prerequisites"
-maybe_install "gcc" "g++" "make" "libjasper1" "libpng12-0"
+maybe_install "gcc" "g++" "make" "libpng16-16"
 
 echo "## Installing Zulu Java"
 echo "Adding the \"Azul Systems\" key"
